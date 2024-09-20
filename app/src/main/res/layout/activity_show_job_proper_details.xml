@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/screen_background_color">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <!-- appBar -->
+            <include
+                android:id="@+id/showproperdetailsAppbar"
+                layout="@layout/back_btn_appbar"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <androidx.cardview.widget.CardView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="60dp"
+        android:elevation="5dp"
+        app:cardCornerRadius="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_gravity="center"
+                android:gravity="end"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/bookmarkthedetails"
+                    android:layout_width="50dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/bookmarkicon"
+                    android:textAppearance="@style/cardKey" />
+
+            </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_weight="0.35"
+                android:text="Title :"
+                android:textAppearance="@style/cardKey" />
+
+            <TextView
+                android:id="@+id/titleinputproperdet"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_weight="0.65"
+                android:clickable="true"
+                android:focusable="true"
+                android:text=""
+                android:textAppearance="@style/cardValue" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/reason_text_ll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_weight="0.35"
+                android:text="Location :"
+                android:textAppearance="@style/cardKey" />
+
+            <TextView
+                android:id="@+id/locationProperDet"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_weight="0.65"
+                android:clickable="true"
+                android:focusable="true"
+                android:text=""
+                android:textAppearance="@style/cardValue" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/reimbursement_type_ll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_weight="0.35"
+                android:text="Salary :"
+                android:textAppearance="@style/cardKey" />
+
+            <TextView
+                android:id="@+id/salaryProperDet"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_weight="0.65"
+                android:clickable="true"
+                android:focusable="true"
+                android:text=""
+                android:textAppearance="@style/cardValue" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/visit_type_ll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_weight="0.35"
+                android:text="Phone :"
+                android:textAppearance="@style/cardKey" />
+
+            <TextView
+                android:id="@+id/phoneProperDet"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_weight="0.65"
+                android:clickable="true"
+                android:focusable="true"
+                android:text=""
+                android:textAppearance="@style/cardValue" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_weight="0.35"
+                android:text="Company Name :"
+                android:textAppearance="@style/cardKey" />
+
+            <TextView
+                android:id="@+id/companyNameProper"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_weight="0.65"
+                android:clickable="true"
+                android:focusable="true"
+                android:text=""
+                android:textAppearance="@style/cardValue" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_weight="0.35"
+                android:text="Job Category :"
+                android:textAppearance="@style/cardKey" />
+
+            <TextView
+                android:id="@+id/jobcategoryProper"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_weight="0.65"
+                android:clickable="true"
+                android:focusable="true"
+                android:text=""
+                android:textAppearance="@style/cardValue" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_weight="0.35"
+                android:text="Role :"
+                android:textAppearance="@style/cardKey" />
+
+            <TextView
+                android:id="@+id/roleProperDet"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_weight="0.65"
+                android:clickable="true"
+                android:focusable="true"
+                android:text=""
+                android:textAppearance="@style/cardValue" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_weight="0.35"
+                android:text="Fees Charge :"
+                android:textAppearance="@style/cardKey" />
+
+            <TextView
+                android:id="@+id/feeschargeProper"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_weight="0.65"
+                android:clickable="true"
+                android:focusable="true"
+                android:text=""
+                android:textAppearance="@style/cardValue" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_weight="0.35"
+                android:text="Working Hours :"
+                android:textAppearance="@style/cardKey" />
+
+            <TextView
+                android:id="@+id/workingHoursProper"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_weight="0.65"
+                android:clickable="true"
+                android:focusable="true"
+                android:text=""
+                android:textAppearance="@style/cardValue" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_weight="0.35"
+                android:text="Created On :"
+                android:textAppearance="@style/cardKey" />
+
+            <TextView
+                android:id="@+id/createdOnproper"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_weight="0.65"
+                android:clickable="true"
+                android:focusable="true"
+                android:text=""
+                android:textAppearance="@style/cardValue" />
+
+        </LinearLayout>
+    </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</FrameLayout>

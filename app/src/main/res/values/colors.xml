@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="card_bg">#FFFBFBFB</color>
+    <color name="submit">#FFFBFBFB</color>
+    <color name="primary">#FF5EA813</color>
+    <color name="screen_background_color">#FFF9F9F9</color>
+    <color name="heading">#FF323232</color>
+    <color name="grey">#8B9390</color>
+    <color name="approved_color">#FF5EA813</color> <!-- Green -->
+    <color name="rejected_color">#FFE50A0A</color>
+    <color name="pending_color">#FF000000</color>
+    <color name="red_20">#1AFF0000</color>
+    <color name="horizontal_divider_color">#FFF8F8F8</color>
+    <color name="card_value">#FF858688</color>
+    <color name="notification_body">#FF858688</color>
+    <color name="designation">#FF4D4A4A</color>
+    <color name="createNew">#FF2E90EF</color>
+    <color name="remaining">#FF2E90EF</color>
+    <color name="empCode">#FF4D4A4A</color>
+    <color name="untracked">#E9F0FB</color>
+    <color name="blue">#FF2E90EF</color>
+    <color name="grey_chat_bg">#D2D1D1</color>
+    <color name="pending">#FF2E90EF</color>
+    <color name="approved">#FF22B378</color>
+    <color name="rejected">#FFF66659</color>
+    <color name="leaveDay">#FF8B9390</color>
+    <color name="redlight">#ffbfbf</color>
+    <color name="pieCardRed">#FFE50A0A</color>
+    <color name="red">#eb5250</color>
+    <color name="pieCardGrey">#FF8C8D8D</color>
+    <color name="pieCardGreen">#FF5EA813</color>
+    <color name="my_chip_color">#1A5EA813</color>
+    <color name="lightGrey">#26A6A7A6</color>
+    <color name="darkGrey">#36A6A7A6</color>
+    <color name="iconcolor">#FF858688</color>
+    <color name="background_color">#FFF9F9F9</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="salary_details_rounded_card_bg">#1A5EA813</color>
+
+</resources>
