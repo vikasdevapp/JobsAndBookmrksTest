@@ -87,6 +87,7 @@ class ShowJobProperDetails : AppCompatActivity() {
             updateBookmarkUI()
         }
     }
+
     private fun setupBookmarkButton() {
         binding.bookmarkthedetails.setOnClickListener {
             lifecycleScope.launch(Dispatchers.Main) {
